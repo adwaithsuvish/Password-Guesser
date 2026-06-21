@@ -14,4 +14,9 @@ special_characters = "~!@#$%^&*()-_=+[]{}|;:',.<>/?" + '"'
 
 passwords = list(permutation.permutation(name.split(), [dob[6:]], list(special_characters)))
 
+f = open(f"{name.split()[0]}_passwords.txt", "w")
+f.writelines ("\n".join(passwords))
+f.close()
+
+
 print(passwords)
