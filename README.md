@@ -1,4 +1,4 @@
-#Common Password Generatror 
+# Common Password Generatror 
 
 This programs generates the most common password by using the personal information given by the user. This program uses basic permutation functionality to the program.
 
