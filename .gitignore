@@ -1,3 +1,4 @@
 # Ignore the passwords file
 Adwaith_passwords.txt
-_pycache_
+__pycache__/
+*.pyc
